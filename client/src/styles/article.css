@@ -1,0 +1,45 @@
+.article {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  background-color: snow;
+}
+
+.article-text {
+  font-size: 1.3rem;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+}
+
+.article__full-text {
+  font-size: 1.5rem;
+  width: 100%;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-info {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  justify-content: space-between;
+}
+
+.article-date {
+  font-size: 1.25rem;
+}
+
+.readMore {
+  font-size: 1rem;
+  color: #8a8a8a;
+  text-decoration: none;
+  font-style: italic;
+  transition: .1s all linear;
+}
+
+.readMore:hover {
+  color: #202020
+}

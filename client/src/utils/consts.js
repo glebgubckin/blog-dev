@@ -1,0 +1,8 @@
+export const ADMIN_ROUTE = '/admin'
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/register'
+export const ARTICLES_ROUTE = '/'
+export const ARTICLE_FULL_ROUTE = '/article/:id'
+export const PROFILE_ROUTE = '/profile'
+export const ADMIN_ARTICLE_ROUTE = '/admin/article/:id'
+export const ADMIN_NEW_ARTICLE_ROUTE = '/admin/new_article/:id'

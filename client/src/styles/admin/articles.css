@@ -1,0 +1,55 @@
+.admin-article {
+  width: 800px;
+  height: 80px;
+  padding: 0 1rem;
+  background-color: #cccccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.admin-article-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.form-article-input {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding: 5px;
+  background-color: #f3f3f3;
+  border: #8a8a8a 2px solid;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-textarea {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding: 5px;
+  background-color: #f3f3f3;
+  border: #8a8a8a 2px solid;
+  border-radius: 5px;
+  outline: none;
+  resize: vertical;
+}
+
+.form-delete-article {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}

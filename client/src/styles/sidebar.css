@@ -1,0 +1,28 @@
+.sidebar {
+  width: 100%;
+  max-width: 250px;
+}
+
+.sidebar-block {
+  width: 100%;
+  padding: 0.5rem;
+  height: auto;
+  text-align: center;
+}
+
+.socials {
+  list-style: none;
+}
+
+.socials li {
+  padding: 1rem 0;
+}
+
+.socials-link {
+  text-decoration: none;
+  color: #202020;
+}
+
+.socials-link:hover {
+  text-decoration: underline;
+}

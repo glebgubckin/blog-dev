@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header-title {
+  text-decoration: none;
+  color: #202020;
+}
+
+.header-link {
+  color: #202020;
+  text-decoration: none;
+  margin-left: 2rem;
+  transition: .1s all linear;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.loggedInUser {
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.loggedInUser-link {
+  margin-left: 0;
+}
+
+.loggedImg {
+  width: 40px;
+  height: 40px;
+}
